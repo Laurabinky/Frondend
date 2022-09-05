@@ -48,7 +48,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier de naam van de pagina  
   De tweede pagina is een detailpagina. 
   https://www2.hm.com/nl_nl/productpage.1071453005.html 
-  <img src="./readme-images/detailpagina.png" width="375px" alt="De detailpagina van een groen/blauwe plooirok.">
+  <img src="readme-images/detailpagina.png" width="375px" alt="De detailpagina van een groen/blauwe plooirok.">
  
 </details>
 
