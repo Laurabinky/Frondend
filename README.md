@@ -42,7 +42,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina
   De eerste pagina die ik ga namaken is de homepagina.  
-  <img src="./readme-images/homepagina.png" width="375px" alt="de homepagina van de H&M website">
+  <img src="readme-images/homepagina.png" width="375px" alt="de homepagina van de H&M website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
