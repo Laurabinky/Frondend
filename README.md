@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Laura Peer
 
   #### Je startniveau:
-  Blauw 
+  Blauw/rood 
 
   #### Je focus:
   Mijn focus ligt bij het responsive maken (kies uit responsive óf surface plane)
@@ -36,11 +36,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
+  De link naar de website die ik ga namaken is: https://www2.hm.com/nl_nl/index.html
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  hier de naam van de pagina
+  De eerste pagina die ik ga namaken is de homepagina.  
+  <img src="readme-images/homepagina.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
