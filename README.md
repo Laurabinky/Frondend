@@ -64,24 +64,40 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Bij de afbeeldingen hebben ze de naam van het kopje meegegeven zonder dat er benoemd was dat het om een afbeelding ging. Op sommige punten wordt er informatie overgeslagen.
+  Het lijkt erop dsat de screen reader hier geen toegang tot heeft. De koppelingen worden goed gelezen door de screenreader. Sommige kopjes zijn als een p neergezet waardoor ze als
+  een p gelezen worden. Een aantal p teksten zijn als een h3 neergezet.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Dit kan ik oplossen door alle teksten onder de juiste titel te zetten en voor de afbeeldingen in de alt tekst te benoemen dat het om een afbeelding gaat.
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met de tab toets is de website best goed te bedienen. Er is duidelijk waar je je bevind en je krijgt op alle pagina's bovenaan gelijk de optie op de navigatie over
+  te slaan. Er is makkelijk heen en terug te gaan enje kan ook sneller door het menu door de tab toets ingedrukt te houden. Op de detailpagina kan je niet met de tab toets op foto's
+  klikken. De webpagina heeft met de tab toets een button om het menu over te slaan. Deze optie komt op elke pagina terug. De zoekbalk is goed te bedienen en blijft niet in beeld staan
+  als je hier vanaf komt. Het uitklap menu werkt niet met de tab toets. Het toevoegen aan winkelmandje is slecht te zien, je kan niet goed zien of je daar met de tabtoets staat
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Als je beperkt bent, en hierdoor de muis niet goed kan bedienen dan is het wat lastig om goed op de knopjes te klikken. Het is afhankelijk hoe makkelijk of moeilijk het is van 
+  het toetsenbord. Op een Mac moet je echt klikken en op een windows kan je ook klikken door je vingers op de touchpad te zetten. De windows versie is dan ook moeilijker te bedienen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Dit kan opgelost worden door de buttons groter te maken of door de ruimte eromheen ook klikbaar te maken. Dit zal afhangen van de elementen die erom heen liggen.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  De licht grijze kleine tekst is slecht te lezen voor iemand met slecht zicht. De foto's zijn dan nog wel te bekijken. Als er geen rood te zien is valt het best mee, de website
+  blijft herkenbaar. Bij de details is te zien om welke kleur het gaat. Ze hebben schriftelijk beschreven om welke kleur het gaat. Als je alles roze ziet komen de rode kleuren meer
+  tot zijn recht. Er is benoemd om welke kleur het gaat dus dat probleem wordt verholpen. In zwart/wit moet er duidelijker zijn waar je wel en niet op kan klikken. Doordat je geen
+  kleur ziet is het lastig te zien wat de active state en de hover state is. 
+  Als je een bepaalde beperking heb aan je ogen is het soms lastig om naar het vel witte scherm te kijken. Hiervoor zou een darkstate goed kunnen werken. Ook kan het nodig zijn om 
+  maar 1 stuk informatie per keer te laten zien. Soms kunnen de verschillende informatie over elkaar heen gaan lopen en dan wordt het voor deze mensen lastig om te lezen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
