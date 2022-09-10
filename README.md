@@ -79,7 +79,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   als je hier vanaf komt. Het uitklap menu werkt niet met de tab toets. Het toevoegen aan winkelmandje is slecht te zien, je kan niet goed zien of je daar met de tabtoets staat
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  De button van toevoegen aan winkelwagen of een andere kleur geven of op een andere manier aangeven dat deze geselecteerd hebben. Ook kan ik zoeken naar een manier waarop de foto's
+  wel worden geselecteerd.
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -100,6 +101,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   maar 1 stuk informatie per keer te laten zien. Soms kunnen de verschillende informatie over elkaar heen gaan lopen en dan wordt het voor deze mensen lastig om te lezen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik kan meer contrast toevoegen tussen de voor en de achtergrond. En de p teksten groter in lettertype en een duidelijkere kleur. Ook zou ik in de naam van het product de kleur
+  kunnen verwerken.
 
 </details>
 
