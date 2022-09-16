@@ -17,9 +17,11 @@ button, summary {
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	/* kleurenpallet*/
+	--color-text:#000;
+	--color-background:#faf9f8;
+	--color-accent:#F3F3F3;
+	--color-extra:#CE2125; 
 }
 
 
@@ -37,3 +39,58 @@ body {
   background-color:var(--color-background);
 }
 
+/* Stijling voor de navigatie */
+nav{
+	display: flex;
+	flex-direction: row;
+}
+nav button{
+	width: 2em;
+	height: 2em;
+	border-style: none;
+	padding: 0;
+	margin: .5em .2em 0 .2em;
+	color: var(--color-background);
+}
+nav button img{
+	width: 2em;
+	height: 2em;
+	margin: .5em .2em 0 .2em;
+}
+nav h1 a img{
+	width: 1.5em;
+	margin: 0 1em 0 1em;
+}
+nav ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-items: left;
+}
+nav ul a img{
+	width: 2em;
+	justify-self: start;
+	align-self: start;
+	margin: 0 .2em 0 .2em;
+}
+nav ul button{
+	justify-self: start;
+	align-self: start;
+	border-style: none;
+	margin: 0 .2em 0 .2em;
+}
+nav ul button img{
+	width: 2.5em;
+	height: 2.5em;
+	margin: 0 .2em 0 .2em;
+}
+
+/* Stijling voor de 1e section */
+section:first-child{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-column-start: 1;
+	grid-column-end: -1;
+}
+main section:first-of-type {
+	text-align: center;	
+}
