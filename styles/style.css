@@ -22,6 +22,12 @@ button, summary {
 	--color-background:#faf9f8;
 	--color-accent:#F3F3F3;
 	--color-extra:#CE2125; 
+
+
+	/* Darkmode */
+	--color-textDonker:#FFF;
+	--color-backgroundDonker:#000;
+	--color-extra:#CE2125;
 }
 
 
@@ -33,6 +39,7 @@ button, summary {
 /****************/
 
 /* jouw code */
+
 
 body {
   color:var(--color-text);
@@ -93,4 +100,12 @@ section:first-child{
 }
 main section:first-of-type {
 	text-align: center;	
+}
+
+/* Stijling voor de 2e section */
+section:nth-child(2) h2{
+	text-align: center;
+}
+section:nth-child(2) h2 p{
+	text-align: center;
 }
