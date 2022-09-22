@@ -168,9 +168,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
 Ik heb deze week best wat moeten doen om een beetje op schema te komen. Ik heb veel gedaan met het juist neerzetten van de elementen, dus dat ze binnen het scherm blijven en heb gekeken naar welke iconen en states ik nog moet toevoegen. Ik heb in het begin best wel even gestruggled met de elementen binnen het scherm houden maar met wat hulp en later goed doorkijken wat er nou gebeurd is heb ik het uiteindelijk gebrepen en verder kunnen toepassen bij andere delen van de site.
 
+Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. Ik heb gekeken naar wat ik kan doen met animatie maar hier kwam ik niet helemaal uit. 
+
   ### Agenda voor meeting
   We hebben gezamenlijk besproken dat we het volgende graag nog even willen bespreken:
-  
+
   | student 1                             | student 2          | student 3    | student 4        |
   | ---                                   | ---                | ---          | ---              |
   | dit bespreken                         | en dit             | en ik dit    | en dan ik dat    |
