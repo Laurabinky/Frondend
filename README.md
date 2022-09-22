@@ -141,7 +141,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Als groepje hebben we besproken dat we de volgende punten willen bespreken:
 
   | student 1                                               | student 2                 | student 3                 | student 4                 |
   | Ik wil graag het nog hebben over elementen selecteren.  | Nog geen aandachtspunten. | Nog geen aandachtspunten. | Nog geen aandachtspunten. |
@@ -151,13 +151,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  Tijdens het feedback moment met de studentassistenten hebben we:
+  - We hebben gekeken naar de opbouw van de html. En of deze semantisch correct was.
+  - Ook hebben we gekeken naar het eerste stuk van onze css en heb aanroepen van selectoren.
 </details>
 
 
@@ -170,17 +166,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik heb deze week best wat moeten doen om een beetje op schema te komen. Ik heb veel gedaan met het juist neerzetten van de elementen, dus dat ze binnen het scherm blijven en heb gekeken naar welke iconen en states ik nog moet toevoegen. Ik heb in het begin best wel even gestruggled met de elementen binnen het scherm houden maar met wat hulp en later goed doorkijken wat er nou gebeurd is heb ik het uiteindelijk gebrepen en verder kunnen toepassen bij andere delen van de site.
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  We hebben gezamenlijk besproken dat we het volgende graag nog even willen bespreken:
+  
+  | student 1                             | student 2          | student 3    | student 4        |
+  | ---                                   | ---                | ---          | ---              |
+  | dit bespreken                         | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog                        | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...                                   | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
