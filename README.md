@@ -179,10 +179,10 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
   | Het beste kan doen. En hoe het zit met de 2e pagina.          | Alt labels    |                                  |
   |                                                               | ...           | ...                              | ...              
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Laura      | Idelene         | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | Ik wil graag nog bespreken hoe ik de animatie | en dit    | en dit             | en ik dit    | en dan ik dat    |
-  | Het beste kan doen. En hoe het zit met de 2e pagina.  | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Ik wil graag nog bespreken hoe ik de animatie | Positionering    | Responsiveness en de @media tag            | Wanneer wel classes    |    |
+  | Het beste kan doen. En hoe het zit met de 2e pagina.  | Alt labels  |  | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
   ### Verslag van meeting
