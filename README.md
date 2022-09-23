@@ -171,19 +171,13 @@ Ik heb deze week best wat moeten doen om een beetje op schema te komen. Ik heb v
 Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. Ik heb gekeken naar wat ik kan doen met animatie maar hier kwam ik niet helemaal uit. 
 
   ### Agenda voor meeting
-  We hebben gezamenlijk besproken dat we het volgende graag nog even willen bespreken:
+  We hebben gezamenlijk besproken dat we het volgende graag nog even willen bespreken:          
 
-  | student 1                                                     | student 2     | student 3                        | student 4        
-  | ---                                                           | ---                                              |                  
-  | Ik wil graag nog bespreken hoe ik de animatie | en dit        | Positionering | Responsiveness en de @media tag  | Wanneer wel classes
-  | Het beste kan doen. En hoe het zit met de 2e pagina.          | Alt labels    |                                  |
-  |                                                               | ...           | ...                              | ...              
-
-  | Laura      | Idelene         | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | Ik wil graag nog bespreken hoe ik de animatie | Positionering    | Responsiveness en de @media tag            | Wanneer wel classes    |    |
-  | Het beste kan doen. En hoe het zit met de 2e pagina.  | Alt labels  |  | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Laura      | Idelene         | Mohini  | Shanine     | Shani |
+  | ---            | ---                | ---          | ---              | --- |
+  | Ik wil graag nog bespreken hoe ik de animatie | Positionering    | Responsiveness en de @media tag            | Wanneer wel classes    |  pseudo elementen  |
+  | Het beste kan doen. En hoe het zit met de 2e pagina.  | Alt labels  | Stijlen van forms | Element dat vershuift als je scrolt |
+  | ...            | ...                | En het hamburgermenu      | ...              |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
