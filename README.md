@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
@@ -162,7 +162,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
@@ -179,6 +179,11 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
   | Het beste kan doen. En hoe het zit met de 2e pagina.          | Alt labels    |                                  |
   |                                                               | ...           | ...                              | ...              
 
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | Ik wil graag nog bespreken hoe ik de animatie | en dit    | en dit             | en ik dit    | en dan ik dat    |
+  | Het beste kan doen. En hoe het zit met de 2e pagina.  | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
