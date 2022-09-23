@@ -173,11 +173,11 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
   ### Agenda voor meeting
   We hebben gezamenlijk besproken dat we het volgende graag nog even willen bespreken:
 
-  | student 1                             | student 2          | student 3    | student 4        |
-  | ---                                   | ---                | ---          | ---              |
-  | dit bespreken                         | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog                        | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...                                   | ...                | ...          | ...              |
+  | student 1                                                     | student 2     | student 3                        | student 4        
+  | ---                                                           | ---                                              |                  
+  | Ik wil graag nog bespreken hoe ik de animatie | en dit        | Positionering | Responsiveness en de @media tag  | Wanneer wel classes
+  | Het beste kan doen. En hoe het zit met de 2e pagina.          | Alt labels    |                                  |
+  |                                                               | ...           | ...                              | ...              
 
 
   ### Verslag van meeting
