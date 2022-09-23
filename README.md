@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
@@ -175,8 +175,8 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
 
   | Laura      | Idelene         | Mohini  | Shanine     | Shani |
   | ---            | ---                | ---          | ---              | --- |
-  | Ik wil graag nog bespreken hoe ik de animatie | Positionering    | Responsiveness en de @media tag            | Wanneer wel classes    |  pseudo elementen  |
-  | Het beste kan doen. En hoe het zit met de 2e pagina.  | Alt labels  | Stijlen van forms | Element dat vershuift als je scrolt |
+  | Animatie | Positionering    | Responsiveness en de @media tag            | Wanneer wel classes    |  pseudo elementen  |
+  | En hoe het zit met de 2e pagina.  | Alt labels  | Stijlen van forms | Element dat vershuift als je scrolt |
   | ...            | ...                | En het hamburgermenu      | ...              |
 
   ### Verslag van meeting
