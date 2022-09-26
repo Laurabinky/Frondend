@@ -54,12 +54,14 @@ header{
 	padding:1em;
 	align-items: center;
 	gap:1em;
+
+	position: sticky;
+	top: 0;
+	z-index: 150;
+	background-color: var(--color-background);
 }
 
 /* Logo */
-header h1{
-	/* height: 1.5em; */
-}
 header h1 a{
 	padding: 0 0.15em;
 }
@@ -68,7 +70,7 @@ header h1 a img{
 }
 
 /* menu */
-header button{
+header > button{
 	border: none;
 	background: none;
 	width: 3.2em;
@@ -77,6 +79,56 @@ header button{
 header > button img{
 	width: 100%;
 }
+
+/* Navigatie */
+header > nav{
+	display: grid;
+	grid-template-columns: 1fr 2em;
+	position: relative;
+	position: fixed;
+	inset: 0;
+	background-color: var(--color-background);
+	z-index: 200;
+	margin: 0;
+
+	transform: translateX(-100%);
+	transition-duration: .2s;
+}
+
+header nav.openen{
+	transform: translateX(-10%);
+}
+
+header nav > button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 10%;
+	background-color: var(--color-background);
+	border: none;
+}
+
+header nav > button img{
+	width: 100%;
+}
+
+header nav > ul{
+	overflow-y:auto;
+}
+
+header nav > ul li{
+	margin-top: .5em;
+	margin-bottom: 2em;
+}
+header nav > ul li a{
+	margin-left: 2em;
+	color: var(--color-text);
+	text-decoration: none;
+	font-size: large;
+}
+
+/* ul met altijd zichtbare menu */
 header > ul{
 	display: flex;
 	margin-left: auto;
@@ -149,8 +201,6 @@ main section:nth-of-type(2) ul:first-of-type{
 	margin:0;
 	padding:0;
 	list-style: none;
-
-	/* background-color: red; */
 }
 main section:nth-of-type(2)  ul:first-of-type li{
 	flex-basis: 5em;
@@ -169,7 +219,6 @@ main section:nth-of-type(2) ul:first-of-type li button:active{
 }
 
 /* 2e ul met tekst en foto's */
-
 main section:nth-of-type(2) ul:nth-of-type(2){
 	display: flex;
 	overflow-x: auto;
@@ -189,7 +238,6 @@ main section:nth-of-type(2) ul:nth-of-type(2) li{
 main section:nth-of-type(2) ul:nth-of-type(2) li p{
 	margin: 0;
 	margin-left: .5em;
-
 }
 
 main section:nth-of-type(2) ul:nth-of-type(2) li a {
@@ -212,6 +260,9 @@ main section:nth-of-type(2) ul:nth-of-type(2) li button{
 main section:nth-of-type(3) {
 	background-color:var(--color-background2);
 	position: relative;
+	display: grid;
+	grid-template-columns: 3fr 3em;
+	grid-template-rows: 6em 1fr;
 }
 
 main section:nth-of-type(3) h2{
@@ -228,16 +279,29 @@ main section:nth-of-type(3) p{
 }
 
 main section:nth-of-type(3) button{
-	position: absolute;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	border: none;
+	background-color: var(--color-background2);
+}
+main section:nth-of-type(3) button img{
+	width: 100%;
 }
 
 main section:nth-of-type(3) nav {
 	display: grid;	
 }
 
-main section:nth-of-type(3) nav a{
+main section:nth-of-type(3) > nav a{
 	text-align: center;
+	display: block;
 }
+
+main section:nth-of-type(3) > nav a img{
+}
+
 
 /* stijling 4e section */
 main section:nth-of-type(4){
@@ -249,6 +313,7 @@ main section:nth-of-type(4) a{
 	position: relative;
 }
 
+/* tekst op het plaatje */
 main section:nth-of-type(4) a h2{
 	position: absolute;
 		text-align: center;
@@ -257,6 +322,7 @@ main section:nth-of-type(4) a h2{
 		right:3em;
 		left:3em;
 		z-index: 100;
+		color: var(--color-text);
 }
 
 /* stijling 5e section */
