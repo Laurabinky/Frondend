@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detailpagina</title>
 
-	<link rel="stylesheet" href="styles/style.css">
+	<link href="styles/style2.css" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <body>
-    <header id="naarTop">
+	<a href="#navOverslaan">Navigatie overslaan</a>
+    <!-- <button aria-label="Sla navigatie over">Navigatie overslaan</button> -->
+	<header id="naarTop">
 		<h1>
 			<a href="index.html"><img src="images/logoh&m.png" alt="Logo van H&M"></a>
 		</h1>
-		<button>
+		<button aria-label="Menu button">
 			<img src="images/menuknop.png" alt="Menu button">
 		</button>
 		<nav>
-			<button><img src="images/kruisje.png" alt="Sluit button"></button>
+			<button aria-label="Sluit button"><img src="images/kruisje.png" alt="Sluit button"></button>
 			<ul>
 				<li><a href="">Inloggen</a></li>
 				<li><a href="">Dames</a></li>
@@ -38,30 +41,32 @@
 			</ul>
 		</nav>
 		<ul>
-			<li><a href="#"><img src="images/account.png" alt=""></a></li>
-			<li><button>
-				<img src="images/zoeken.png" alt="">
+			<li><a href="#"><img src="images/account.png" alt="Account button"></a></li>
+			<li><button aria-label="Zoeken">
+				<img src="images/zoeken.png" alt="Zoeken">
 			</button></li>
-			<li><a href="#"><img src="images/favorieten.png" alt=""></a></li>
-			<li><a href="#"><img src="./images/winkelmandje.png" alt=""></a></li>
+			<li><a href="#"><img src="images/favorieten.png" alt="favorieten button"></a></li>
+			<li><a href="#"><img src="./images/winkelmandje.png" alt="Winkelmandje"></a></li>
 		</ul>
 	</header>
-	<main>
+	<main id="navOverslaan">
 		<p>Hm.com/Dames/Rokken/Skater rokken/Plooirok</p>
 		<section>
-			<img src="images/plooirok.jpg" alt="Foto van een groene geplooide rok">
 			<p>Plooirok</p>
+			<img src="images/plooirok.jpg" alt="Foto van een groene geplooide rok">
 			<p>€19,99</p>
+			<button aria-label= "Like me"></button>
 		</section>
-		<section>
+		<section> <!---- 2e section.--> 
 			<p>Donkerblauw/geruit</p>
 			<ul>
-				<li><a href="#"><img src="" alt=""></a></li>
-				<li><a href="#"><img src="" alt=""></a></li>
-				<li><a href="#"><img src="" alt=""></a></li>
-				<li><a href="#"><img src="" alt=""></a></li>
-				<li><a href="#"><img src="" alt=""></a></li>
-				<li><a href="#"><img src="" alt=""></a></li>
+				<li><a href="#"><img src="images/plooirokbruin.png" alt=""></a></li>
+				<li><a href="#"><img src="images/plooirokwit.png" alt=""></a></li>
+				<li><a href="#"><img src="images/plooirokbege.png" alt=""></a></li>
+				<li><a href="#"><img src="images/plooirokbruingrijs.png" alt=""></a></li>
+				<li><a href="#"><img src="images/plooirokgroen.png" alt=""></a></li>
+				<li><a href="#"><img src="images/plooiroktoupe.png" alt=""></a></li>
+				<li><a href="#"><img src="images/plooirokzwart.png" alt=""></a></li>
 			</ul>
 			<a href="#">Zoek een winkel</a>
 		</section>
@@ -70,20 +75,20 @@
 			<p>Samenstelling - Polyester 98%. Elastaan 2%.</p>
 			<p>Art. nr. - 1071453005</p>
 		</section>
-		<section>
+		<section> <!---- 4e section.--> 
 			<img src="images/rokfrontcloseup.png" alt="">
 			<img src="images/rokfront.png" alt="">
-			<img src="images/rokside.jpg" alt="">
+			<img src="images/rokside.jpg" alt="Rok van de zijkant">
 			<img src="images/rokback.jpg" alt="">
 			<img src="images/rok.jpg" alt="">
 			<img src="images/rokclose.jpg" alt="">
 		</section>
-		<section>
+		<section> <!--5e section-->
 			<button>Details</button>
 			<button>Levering en betaling</button>
 			<p>Members krijgen gratis levering bij bestellingen vanaf €20 en kunnen gratis retourneren.</p>
 		</section>
-		<section>
+		<section> <!--6e section-->
 			<button>selecteer maat</button>
 			<button>toevoegen</button>
 		</section>
@@ -92,14 +97,29 @@
 			<p>We zien graag hoe jij je favorieten van H&M, H&M Beauty en H&M HOME stylet: Blijf je persoonlijke stijl delen met @HM en #HMxME en maak kans om te worden getoond op hm.com, in ons marketingmateriaal en in onze winkels.</p>
 			<img src="images/styledbyyou.png" alt="Foto van iemand die haar favoriet heeft gedeeld met H&M.">
 		</section>
-		<section>
+		<section> <!--8ste section-->
 			<h2>Stijlen met</h2>
-			<a href="#"><img src="images/geruiteblouse.jpg" alt="Foto van een groen geruite blouse."></a>
-			<a href="#"><img src="images/croptop.jpg" alt="Foto van een zwarte croptop"></a>
+			<ul>
+				<li>
+					<p>Geruite overhemdblouse</p>
+					<a href="#"><img src="images/geruiteblouse.jpg" alt="Foto van een groen geruite blouse."></a>
+					<button aria-label="like me"></button>
+					<p>€14,99</p>
+				</li>
+				<li>
+					<p>Croptop met kraag</p>
+					<a href="#"><img src="images/croptop.jpg" alt="Foto van een zwarte croptop"></a>
+					<button aria-label="like me"></button>
+					<p>€7,99</p>
+				</li>
+			</ul>
+			<nav>
+				<a href="#"><img src="images/buttons.png" alt="scroll buttons"></a>
+			</nav>
 		</section>
-		<section>
+		<section> <!--9e section-->
 			<p>We streven ernaar om in 2030 alleen nog maar gerecyclede, biologische of andere duurzame materialen te gebruiken</p>
-			<p>Momenteel zitten we op 80%</p>
+			<p>Momenteel zitten we op 80%.</p>
 			<a href="#">Benieuwd naar wat we doen om onze impact op het mileu te verlagen? Lees hier meer.</a>
 		</section>
 	</main>
@@ -120,7 +140,6 @@
 
 		<uL aria-label="Dit is een lijstje met de socials">
 			<li><a href="#"><img src="images/facebook-box-fill.png" alt="Link naar de Facebookpagina"></a></li>
-			<!-- <li><i class="ri-facebook-box-fill"></i></li> -->
 			<li><a href="#"><img src="images/twitter-fill.png" alt="Link naar de Twitter"></a></li>
 			<li><a href="#"><img src="images/instagram-line.png" alt="Link naar de Instagram"></a></li>
 			<li><a href="#"><img src="images/youtube-fill.png" alt="Link naar het Youtube account"></a></li>
@@ -132,6 +151,6 @@
 		</p>
 		<a href="#">MEER LEZEN</a>
 	</footer>
-<script defer src="scripts/script.js"></script>
+	<script defer src="scripts/script.js"></script>
 </body>
 </html>

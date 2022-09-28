@@ -23,3 +23,23 @@ function menuSluiten() {
 }
 
 sluitButton.addEventListener("click", menuSluiten);
+
+
+// Detailpagina hartjes
+//hartje van het product
+var deButton = document.querySelector("main section:nth-of-type(1) > button");
+
+deButton.addEventListener("click", likeMe);
+
+function likeMe() {
+	deButton.classList.toggle("liked");
+}
+
+// hartje van extra producten
+var deButton = document.querySelector("main section:nth-of-type(8) ul li button");
+
+deButton.addEventListener("click", likeMe);
+
+function likeMe() {
+	deButton.classList.toggle("liked");
+}

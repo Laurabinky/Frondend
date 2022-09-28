@@ -14,15 +14,16 @@
 
 
 <body>
+	<a href="#navOverslaan">Navigatie overslaan</a>
 	<header id="naarTop">
 		<h1>
 			<a href="#naarTop"><img src="images/logoh&m.png" alt="Logo van H&M"></a>
 		</h1>
-		<button>
+		<button aria-label="Menu button">
 			<img src="images/menuknop.png" alt="Menu button">
 		</button>
 		<nav>
-			<button><img src="images/kruisje.png" alt="Sluit button"></button>
+			<button aria-label="Sluit button"><img src="images/kruisje.png" alt="Sluit button"></button>
 			<ul>
 				<li><a href="">Inloggen</a></li>
 				<li><a href="">Dames</a></li>
@@ -42,34 +43,34 @@
 			</ul>
 		</nav>
 		<ul>
-			<li><a href="#"><img src="images/account.png" alt=""></a></li>
-			<li><button>
-				<img src="images/zoeken.png" alt="">
+			<li><a href="#"><img src="images/account.png" alt="Account button"></a></li>
+			<li><button aria-label="Zoeken">
+				<img src="images/zoeken.png" alt="Zoeken">
 			</button></li>
-			<li><a href="#"><img src="images/favorieten.png" alt=""></a></li>
-			<li><a href="#"><img src="./images/winkelmandje.png" alt=""></a></li>
+			<li><a href="#"><img src="images/favorieten.png" alt="favorieten button"></a></li>
+			<li><a href="#"><img src="./images/winkelmandje.png" alt="Winkelmandje"></a></li>
 		</ul>
 	</header>
-	<main>
+	<main id="navOverslaan">
 		<p>Standaardlevering:2-3 dagen.</p>
-		<section>
-			<div>
+		<section> <!--1e section-->
+			<div aria-label="Chic in grijstinten">
 			<h2>Chic in grijstinten</h2>
-			<p>Ga voor ton-sur-ton in de tinten heidegrijs, houtskool en steen.</p>
+			<p>Ga voor ton-sur-ton in de tinten heide grijs, houtskool en steen.</p>
 			</div>
 			<img src="images/knit_grijs.png" alt="Foto met link van een grijze oversized trui.">
 		</section>
-		<section>
+		<section><!--2e section-->
 			<h2>Nieuwe items</h2>
 			<ul>
 				<li>
-				<button>Dames</button>
+				<button aria-label="Dames kleding">Dames</button>
 				</li>
 				<li>
-				<button>Heren</button>
+				<button aria-label="Heren kleding">Heren</button>
 				</li>
 				<li>
-				<button>Divided</button>
+				<button aria-label="Kleding voor beide geslachten">Divided</button>
 				</li>
 				<li>
 				<button>Kinderen</button>
@@ -99,9 +100,9 @@
 					</button>
 				</li>
 				<li>
-					<p>Plooirok</p>
-					<p>€19,99</p>
-					<a href="#"><img src="images/plooirok.jpg" alt="Foto van een groene geplooide rok"></a>
+					<p>jurk met turtleneck</p>
+					<p>€39,99</p>
+					<a href="#"><img src="images/rozetrui.jpg" alt="Foto van een groene geplooide rok"></a>
 					<button>
 						<img src="images/favorieten-voor-foto.png" alt="Like button">
 					</button>
@@ -111,13 +112,13 @@
 				<a href="#"><img src="images/buttons.png" alt="scroll buttons"></a>
 			</nav>
 		</section>
-		<section>
+		<section> <!--3e section-->
 			<h2>WIN WIN WIN</h2>
 			<p>Elle Smart Shopping Weekend komt eraan! En als menber maak jij kans op een seat at the table bij Bistro ELLE waar jij
 				samen met een +1 en de ELLE redactie geniet van een amazing lunch. Ben jij één van de twintig lucky winners? Dan shop 
 				je ook nog eens met 30% korting i/p/v/ 20% korting tijdens het ELLE Smart Shopping Weekend. Doe nu mee! 
 			</p>
-			<button>
+			<button aria->
 				<img src="images/plusje.png" alt="Button meer weten">
 			</button>
 		</section>
@@ -146,13 +147,13 @@
 		</section>
 	</main>
 		<footer>
-			<button>
+			<button aria-label="Shoppen in de verschillende categoriën">
 				<a href="#"><h2>SHOP</h2></a>
 			</button>
-			<button>
+			<button aria-label="Corporate informatie over H&M">
 				<a href="#"><h2>CORPORATE INFO</h2></a>
 			</button>
-			<button>
+			<button aria-label="Help informatie">
 				<a href="#"><h2>HELP</h2></a>
 			</button>
 
@@ -162,7 +163,6 @@
 
 			<uL aria-label="Dit is een lijstje met de socials">
 				<li><a href="#"><img src="images/facebook-box-fill.png" alt="Link naar de Facebookpagina"></a></li>
-				<!-- <li><i class="ri-facebook-box-fill"></i></li> -->
 				<li><a href="#"><img src="images/twitter-fill.png" alt="Link naar de Twitter"></a></li>
 				<li><a href="#"><img src="images/instagram-line.png" alt="Link naar de Instagram"></a></li>
 				<li><a href="#"><img src="images/youtube-fill.png" alt="Link naar het Youtube account"></a></li>
