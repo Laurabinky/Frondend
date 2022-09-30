@@ -25,13 +25,20 @@ button, summary {
 	--color-background2:#f6e6df;
 	--color-footer:#f3f3f3; 
 	--color-extra:#CE2125; 
-
-
-	/* Darkmode */
-	--color-textDonker:#FFF;
-	--color-backgroundDonker:#000;
-	--color-extra:#CE2125;
 }
+
+@media(prefers-color-scheme: dark){
+    :root{
+        --color-text:#fff;
+        --color-accent-text:#fff;
+
+        --color-background:#000;
+        --color-background2:#f6e6df;
+        --color-footer:#000; 
+        --color-extra:#CE2125; 
+        --color-section:#88998D; 
+    }
+  }
 
 /****************/
 /* JOUW STYLING */
@@ -43,6 +50,22 @@ body {
   color:var(--color-text);
   background-color:var(--color-background);
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h3, h4, p{
+	font-size: large;
+	line-height: 1.4em;
+}
+
+/*Skiplink*/
+body > a{
+    display:block;
+    width: fit-content;
+    margin: 1em;
+    margin-top: 0;
+    padding: .5em;
+    font-size: small;
 }
 
 /* Stijling voor de navigatie */
@@ -253,13 +276,31 @@ main section:nth-of-type(2) ul:nth-of-type(2) li a img{
 	width: 100%;
 }
 
+/*button over de foto positioneren*/
 main section:nth-of-type(2) ul:nth-of-type(2) li button{
 	position: absolute;
 	right: 1em;
-	bottom: 4.5em;
+	bottom: 6em;
 	background: none;
 	border: none;
 }
+
+main section:nth-of-type(2) ul:nth-of-type(2) button::after {
+	content:"🤍";
+    font-size: 2em;
+}
+
+main section:nth-of-type(2) ul:nth-of-type(2) button.liked::after {
+	content:"❤️";
+}
+
+/* main section:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(2) button.liked::after {
+	content:"❤️";
+}
+
+main section:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(3) button.liked::after {
+	content:"❤️";
+} */
 
 main section:nth-of-type(2) > nav{
 	text-align: center;

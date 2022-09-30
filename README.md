@@ -162,7 +162,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
@@ -182,11 +182,8 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
+  - Hoe maak je een hamburgermenu met 1 button en 2 buttons
+  - Hoe zet je elementen op de juiste plek
 </details>
 
 
@@ -200,30 +197,41 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Bevindingen bij de test:
+  - Leesbaarheid is niet voldoende.
+  - Een aantal aria-labels missen.
+  - Sommige buttons zijn te klein.
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  De test met een screenreader ging redelijk goed. Er bleken een aantal elementen te zijn die een alt-tekst miste maar verder verliep het redelijk goed.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Om het dus nog beter te laten verlopen moet ik zorgen dat overal een goede alt-tekst staat.
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met de tab-toets kon je goed door de website heen tabben. Wel kwamen we er achter dat ik een aantal dingen niet helemaal goed genest had. Dus aan deze zal ik even moeten werken.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  De buttons zijn voor de meeste gevallen grootgenoeg of de ruimte eromheen is ook voldoende klikbaar. 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Bij sommige brilletjes was de normale versie van de website niet goed te zien. Hier zou een darkmode vanpas komen. Verder is het contrast tussen de verschillende elementen vrij goed. Iets wat wel uit een van de testen bleek was dat de regelafstand en het lettertype anders moet. Wat de letter met schreef is niet lekker leesbaar. Ook moet op sommige buttons het lettergrootte om hoog, de tekst is nu vrij klein en wordt met een beperking niet beter zichtbaar.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - Vergroten van het lettergrootte.
+  - Vergroten van de regelafstand.
+  - Veranderen van het lettertype.
+  - Darkmode toepassen.
 </details>
 
 
@@ -232,7 +240,7 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
@@ -242,10 +250,10 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Laura      | Sjoerd         | Idelene   | Mohini       |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Button js werkt niet  | Animeren button           | object observer ap    | Menu error met javascript   |
+  |  | Waarom werkt het selecteren van sommige selectoren niet |  |
   | ...            | ...                | ...          | ...              |
 
 

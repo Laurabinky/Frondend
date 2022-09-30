@@ -34,6 +34,19 @@
       --color-extra:#CE2125;
   }
   
+  @media(prefers-color-scheme: dark){
+    :root{
+        --color-text:#fff;
+        --color-accent-text:#fff;
+
+        --color-background:#000;
+        --color-background2:#f6e6df;
+        --color-footer:#000; 
+        --color-extra:#CE2125; 
+        --color-section:#88998D; 
+    }
+  }
+
   /****************/
   /* JOUW STYLING */
   /****************/
@@ -44,8 +57,15 @@ body {
   color:var(--color-text);
   background-color:var(--color-background);
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+h2, h3, h4, p{
+    font-size: large;
+    line-height: 1.4em;
+}
+
+/*Skiplink*/
 body > a{
     display:block;
     width: fit-content;
@@ -196,6 +216,7 @@ main section:nth-of-type(1) img{
     position: relative;
 }
 
+/*Stijling like me button*/
 main section:nth-of-type(1) button{
     position: absolute;
     right:0;
@@ -206,6 +227,7 @@ main section:nth-of-type(1) button{
 
 main section:nth-of-type(1) button::after {
 	content:"🤍";
+    font-size: 2em;
 }
 
 main section:nth-of-type(1) button.liked::after {
@@ -241,25 +263,21 @@ main section:nth-of-type(2) a{
 main section:nth-of-type(4){
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 1em;
 }
+
 main section:nth-of-type(4) img{
     width: 100%;
 }
-main section:nth-of-type(4) img:nth-of-type(1){
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-main section:nth-of-type(4) img:nth-of-type(2){
-    grid-row-start: 2;
-    grid-row-end: -1;
-}
+
 main section:nth-of-type(4) img:nth-of-type(3){
-    /* grid-row-start: 1;
-    grid-row-end: -1;
-    grid-column-start: 2;
-    grid-column-end: 4; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+main section:nth-of-type(4) img:nth-of-type(6){
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 /* Sijling 5e section*/
@@ -322,11 +340,6 @@ main section:nth-of-type(7){
 }
 
 /* Stijling 8ste section*/
-/* main section:nth-of-type(8){
-    background-color: var(--color-footer);
-    padding: 2em;
-} */
-
 main section:nth-of-type(8) ul{
     list-style: none;
     display: flex;
@@ -335,31 +348,69 @@ main section:nth-of-type(8) ul{
     padding: 0;
 }
 
-main section:nth-of-type(8) h2{
-    grid-column-start: 1;
-    grid-column-end: -1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-
-main section:nth-of-type(8) ul li > a{
-    order: -1;
+main section:nth-of-type(8) ul li{
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 main section:nth-of-type(8) img{
     width: 100%;
 }
 
+main section:nth-of-type(8) ul li:nth-of-type(1) a{
+    order: -1;
+}
+
+main section:nth-of-type(8) ul li:nth-of-type(2) a{
+    order: -1;
+}
+
+
+main section:nth-of-type(8) ul li:nth-of-type(1) p{
+    margin-top: 0;
+}
+
+main section:nth-of-type(8) ul li:nth-of-type(2) p{
+    margin-top: 0;
+}
+
+main section:nth-of-type(8) ul li:nth-of-type(2) p:nth-of-type(1){
+    margin-top: 1.2em;
+}
+
+
+main section:nth-of-type(8) ul li:nth-of-type(1) button{
+    position: absolute;
+    right: 0;
+    margin: .5em .5em 0 0;
+    border: none;
+    background: none;
+}
+
+main section:nth-of-type(8) ul li:nth-of-type(2) button{
+    position: absolute;
+    right: 0;
+    margin: .5em .5em 0 0;
+    border: none;
+    background: none;
+}
+
 main section:nth-of-type(8) ul li button::after {
 	content:"🤍";
+    font-size: 2em;
 }
 
 main section:nth-of-type(8) ul li button.liked::after {
 	content:"❤️";
 }
 
-main section:nth-of-type(8) nav{
+main section:nth-of-type(8) > nav{
     text-align: center;
+}
+
+main section:nth-of-type(8) > nav a img{
+    width: 100%;
 }
 
 /* Stijling 9e section*/

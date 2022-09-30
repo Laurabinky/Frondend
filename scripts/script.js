@@ -25,21 +25,30 @@ function menuSluiten() {
 sluitButton.addEventListener("click", menuSluiten);
 
 
-// Detailpagina hartjes
-//hartje van het product
-var deButton = document.querySelector("main section:nth-of-type(1) > button");
+//Liken hartje
+//hartje van het product 1e li button
+var deButton = document.querySelector("main section:nth-of-type(2) ul:nth-of-type(2) button");
 
 deButton.addEventListener("click", likeMe);
 
-function likeMe() {
+function likeMe(){
 	deButton.classList.toggle("liked");
 }
 
-// hartje van extra producten
-var deButton = document.querySelector("main section:nth-of-type(8) ul li button");
+// //hartje van het product 2e li button
+// var deButton = document.querySelector("main section:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(2) button");
 
-deButton.addEventListener("click", likeMe);
+// deButton.addEventListener("click", likeMe);
 
-function likeMe() {
-	deButton.classList.toggle("liked");
-}
+// function likeMe(){
+// 	deButton.classList.toggle("liked");
+// }
+
+// //hartje van het product 3e li button
+// var deButton = document.querySelector("main section:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(3) button");
+
+// deButton.addEventListener("click", likeMe);
+
+// function likeMe(){
+// 	deButton.classList.toggle("liked");
+// }
