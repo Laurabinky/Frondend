@@ -252,7 +252,7 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
 
   | Laura      | Sjoerd         | Idelene   | Mohini       |
   | ---            | ---                | ---          | ---              |
-  | Button js werkt niet  | Animeren button           | object observer ap    | Menu error met javascript   |
+  | Button js werkt niet  | Animeren button           | object observer api    | Menu error met javascript   |
   |  | Waarom werkt het selecteren van sommige selectoren niet |  |
   | ...            | ...                | ...          | ...              |
 

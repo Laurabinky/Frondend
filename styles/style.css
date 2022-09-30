@@ -302,13 +302,21 @@ main section:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(3) button.liked::af
 	content:"❤️";
 } */
 
+@keyframes hartjeGroter{
+	0%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(2)
+	}
+}
 
 /*Animatie van de like button*/
-main section:nth-of-type(2) ul:nth-of-type(2) button{
-@keyframes hartjeGroter{
-	
+main section:nth-of-type(2) ul:nth-of-type(2) button:active{
+	animation-name: hartjeGroter;
+	animation-duration: infinite;
 }
-}
+
 main section:nth-of-type(2) > nav{
 	text-align: center;
 }
