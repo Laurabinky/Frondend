@@ -290,6 +290,51 @@ main section:nth-of-type(2) ul:nth-of-type(2) button::after {
     font-size: 2em;
 }
 
+/*Animatie van de like button met hover*/
+@keyframes hartjeHover{
+	0%{
+		transform: scale(1);
+	}
+	25%{
+		transform: scale(.7);
+	}
+	50%{
+		transform: scale(1);
+	}
+	75%{
+		transform: scale(.7);
+	}
+	100%{
+		transform: scale(1)
+	}
+}
+
+main section:nth-of-type(2) ul:nth-of-type(2) li button:hover{
+	animation-name: hartjeGroter;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+/*Animatie van de like button active state*/
+@keyframes hartjeGroter{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(.5);
+	}
+	100%{
+		transform: scale(1)
+	}
+}
+
+main section:nth-of-type(2) ul:nth-of-type(2) li button:active{
+	animation-name: hartjeGroter;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+/*button na het liken*/
 main section:nth-of-type(2) ul:nth-of-type(2) button.liked::after {
 	content:"❤️";
 }
@@ -301,21 +346,6 @@ main section:nth-of-type(2) ul:nth-of-type(2) button.liked::after {
 main section:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(3) button.liked::after {
 	content:"❤️";
 } */
-
-@keyframes hartjeGroter{
-	0%{
-		transform: scale(1);
-	}
-	100%{
-		transform: scale(2)
-	}
-}
-
-/*Animatie van de like button*/
-main section:nth-of-type(2) ul:nth-of-type(2) button:active{
-	animation-name: hartjeGroter;
-	animation-duration: infinite;
-}
 
 main section:nth-of-type(2) > nav{
 	text-align: center;
