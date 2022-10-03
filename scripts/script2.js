@@ -25,26 +25,67 @@ function menuSluiten() {
 sluitButton.addEventListener("click", menuSluiten);
 
 
+// // Detailpagina hartjes
+// //hartje van het product
+// var deButton = document.querySelector("main section:nth-of-type(1) > button");
 
+// deButton.addEventListener("click", likeMe);
 
+// function likeMe(){
+// 	deButton.classList.toggle("liked");
+// }
+// var button = document.querySelectorAll("main section:nth-of-type(1) button");
 
+// button.addEventListener("click", addToFavorites);
 
+// function addToFavorites(){
+// 	var section = button.closest("section");
 
-// Detailpagina hartjes
-//hartje van het product
-var deButton = document.querySelector("main section:nth-of-type(1) > button");
+// 	button.classList.toggle("liked");
+// }
 
-deButton.addEventListener("click", likeMe);
+//hartje van productenlijstje
+var deButton = document.querySelectorAll("main section:nth-of-type(8) ul li button.like");
 
-function likeMe(){
-	deButton.classList.toggle("liked");
+for(let i = 0; i< deButton.length; i++){
+deButton[i].addEventListener("click", likeMe);
 }
 
-// hartje van extra producten
-var deButton = document.querySelector("main section:nth-of-type(8) ul li button");
+//Liken hartje
+function likeMe(event){
+	var deHartjes = event.target;
+	var deLi = deHartjes.closest("li");
+	deLi.classList.toggle("liked");
+	
+	//nummer bij like
+	var wishlist = document.querySelector("header > ul li a span");
+	var aantalNu = wishlist.innerHTML;
+	aantalNu = parseInt(aantalNu);
+	var nieuwAantal;
 
-deButton.addEventListener("click", likeMe);
-
-function likeMe(){
-	deButton.classList.toggle("liked");
+	if(deLi.classList.contains("liked")){
+		nieuwAantal= aantalNu + 1;
+	}
+	else{
+		nieuwAantal = aantalNu - 1;
+	}
+	if(nieuwAantal== 0){
+		wishlist.classList.add("empty");
+	}
+	else{
+		wishlist.classList.remove("empty");
+	}
+	wishlist.innerHTML = nieuwAantal;
 }
+
+
+
+//klikgeluidje op de buttons
+var audio = new Audio("audio/mouse-click.mp3");
+var buttons = document.querySelectorAll("button");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    audio.play();
+  });
+});

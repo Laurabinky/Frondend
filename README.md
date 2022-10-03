@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw/rood 
 
   #### Je focus:
-  Mijn focus ligt bij het responsive maken (kies uit responsive óf surface plane)
+  Mijn focus ligt bij de survice plane (kies uit responsive óf surface plane)
  
 </details>
 
@@ -260,10 +260,8 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Laten zien hoe je een juiste transitie laat plaatsvinden.
+  - Animatie all uitgelegd
 
 </details>
 
@@ -303,8 +301,8 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
+  1. https://www.youtube.com/watch?v=ABZhVOkAPcE
+  2. https://css-tricks.com/almanac/properties/s/scroll-behavior/
   3. ...
 
 </details>
