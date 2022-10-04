@@ -82,6 +82,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De button van toevoegen aan winkelwagen of een andere kleur geven of op een andere manier aangeven dat deze geselecteerd hebben. Ook kan ik zoeken naar een manier waarop de foto's
   wel worden geselecteerd.
 
+  <img src="readme-images/tab.jpg" width="375px" alt="foto van tabtoets">
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -90,6 +91,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
   Dit kan opgelost worden door de buttons groter te maken of door de ruimte eromheen ook klikbaar te maken. Dit zal afhangen van de elementen die erom heen liggen.
+
+  <img src="readme-images/trillen.jpg" width="375px" alt="trillen">
+
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -104,6 +108,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik kan meer contrast toevoegen tussen de voor en de achtergrond. En de p teksten groter in lettertype en een duidelijkere kleur. Ook zou ik in de naam van het product de kleur
   kunnen verwerken.
 
+  <img src="readme-images/slechtzicht.jpg" width="375px" alt="Afbeelding met wazige tekst">
+
 </details>
 
 
@@ -117,14 +123,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/website-uitwerking.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/menu.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
-
-
 
 
 
@@ -136,7 +137,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   Het schrijven van de html ging best voorspoedig. Eenmaal de css ervoor schrijven vind ik lastig. Dan merk ik toch dat ik heel veel met classes en id's gedaan heb en dit weer even wennen is. Ik heb op het moment voornamelijk nog moeite met iets selecteren. 
-    <img src="readme-images/eerste-deel-code.png" width="375px" alt="breakdown van de hele pagina">
+
+  Ik pak het gewoon stukje voor stukje aan zodat ik voor mijzelf het overzicht erin houd.
+
+  <img src="readme-images/eerste-deel-code.png" width="375px" alt="Code van de 1e pagina">
 
 
 
@@ -157,17 +161,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
-
 ## Voortgang 2 (week 3)
 
 <details>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-Ik heb deze week best wat moeten doen om een beetje op schema te komen. Ik heb veel gedaan met het juist neerzetten van de elementen, dus dat ze binnen het scherm blijven en heb gekeken naar welke iconen en states ik nog moet toevoegen. Ik heb in het begin best wel even gestruggled met de elementen binnen het scherm houden maar met wat hulp en later goed doorkijken wat er nou gebeurd is heb ik het uiteindelijk gebrepen en verder kunnen toepassen bij andere delen van de site.
+  Ik heb deze week best wat moeten doen om een beetje op schema te komen. Ik heb veel gedaan met het juist neerzetten van de elementen, dus dat ze binnen het scherm blijven en heb gekeken naar welke iconen en states ik nog moet toevoegen. Ik heb in het begin best wel even gestruggled met de elementen binnen het scherm houden maar met wat hulp en later goed doorkijken wat er nou gebeurd is heb ik het uiteindelijk gebrepen en verder kunnen toepassen bij andere delen van de site.
 
-Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. Ik heb gekeken naar wat ik kan doen met animatie maar hier kwam ik niet helemaal uit. 
+  Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. Ik heb gekeken naar wat ik kan doen met animatie maar hier kwam ik niet helemaal uit. 
+
+  <img src="readme-images/csswk2.png" width="375px" alt="Deel van de css wk 3">
+
 
   ### Agenda voor meeting
   We hebben gezamenlijk besproken dat we het volgende graag nog even willen bespreken:          
@@ -213,6 +218,8 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
   Met de tab-toets kon je goed door de website heen tabben. Wel kwamen we er achter dat ik een aantal dingen niet helemaal goed genest had. Dus aan deze zal ik even moeten werken.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik moet de elementen die niet goed genest zijn goed nesten voor een betere doorloop.
+
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -220,6 +227,7 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
   De buttons zijn voor de meeste gevallen grootgenoeg of de ruimte eromheen is ook voldoende klikbaar. 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik kan nog even extra kijken en verder testen of het nog beter kan.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
@@ -231,6 +239,9 @@ Verder heb ik gekeken naar wat ik nou wil gaan doen, responsive of bling bling. 
   - Vergroten van de regelafstand.
   - Veranderen van het lettertype.
   - Darkmode toepassen.
+
+  <img src="readme-images/leesbaarheid-slecht.png" width="375px" alt="Code van de 1e pagina">
+
 </details>
 
 
