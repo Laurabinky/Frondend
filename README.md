@@ -323,8 +323,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. https://www.youtube.com/watch?v=ABZhVOkAPcE
-  2. https://css-tricks.com/almanac/properties/s/scroll-behavior/
-  3. ...
+  1. Audio toevoegen met live coderen.
+  https://www.youtube.com/watch?v=ABZhVOkAPcE
+  2. Scroll behavior toevoegen met de benodigde informatie.
+  https://css-tricks.com/almanac/properties/s/scroll-behavior/
+  3. Meer informatie over custom properties.
+  https://css-tricks.com/a-complete-guide-to-custom-properties/ 
+  4. De verkregen informatie uit de lessen + de codepennen van dlo.
 
 </details>
