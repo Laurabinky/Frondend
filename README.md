@@ -292,7 +292,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/detail2.png" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Wat wel goed ging was in de meeste gevallen wel de css. Er zijn een aantal onderdelen waar ik best wel wat van geleerd heb. Zoals het werkende uitklap menu, de animatie met de hartjes en hierbij de hover state. En de darkmode. Ik heb zo ontdenkt dat deze 3 dingen met redelijk weinig code kunnen worden toegevoegd.
+
+  Ik heb ook geleerd hoe makkelijk het eigenlijk is om audio toe te voegen. Hier ben ik best trots op iedere keer als ik op een button klik. 
 
   <img src="readme-images/heartjelike.png" width="375px" alt="top">
   <img src="readme-images/menu.png" width="375px" alt="top">
@@ -302,7 +304,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Wat ik wel lastig vond was het toevoegen van een zoekfunctie. Dit is dan ook iets wat ik niet voor elkaar heb gekregen. Ik heb dit op meerdere manieren en aan de hand van meerdere artikelen en video's geprobeerd maar ben er niet in geslaagd. 
+  En ik had ook wat moeite met het extra eenzame hartje. Als ik deze wilde laten werken hielden de andere ermee op. Vanwege tijdsgebrek heb ik dit dan ook niet voor elkaar weten te krijgen.
 
   <img src="readme-images/hartniet.png" width="375px" alt="bummer">
   <img src="readme-images/zoeken.png" width="375px" alt="bummer">
