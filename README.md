@@ -287,9 +287,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/homepagina1" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/detail1" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/detail2" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/homepagina1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/detail1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/detail2.png" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
