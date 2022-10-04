@@ -143,12 +143,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   Als groepje hebben we besproken dat we de volgende punten willen bespreken:
 
-  | student 1                                               | student 2                 | student 3                 | student 4                 |
-  | Ik wil graag het nog hebben over elementen selecteren.  | Nog geen aandachtspunten. | Nog geen aandachtspunten. | Nog geen aandachtspunten. |
-  | dit bespreken. en dat ook nog                           | en dit                    | en ik dit                 | en dan ik dat             |
-  | Als er tijd over is zou ik graag nog wat willen weten   | dit als er tijd is        | nog een punt              | dit wil ik zeker          |
-  | over hoe je met grid elementen entreert.                | ...                       | ...                       | ...                       |
-
+  | Laura      | Idelene        | Shanine  | Mohini       |
+  | ---            | ---                | ---          | ---              |
+  | Ik wil graag het nog hebben over elementen selecteren.  | Opbouw html           |  over hoe je met grid elementen entreert.              | Nog geen aandachtspunten   |
+  |  |  |  |
+  | ...            | ...                | ...          | ...              |
 
   ### Verslag van meeting
   Tijdens het feedback moment met de studentassistenten hebben we:
