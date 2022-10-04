@@ -239,8 +239,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Veranderen van het lettertype.
   - Darkmode toepassen.
 
-  <img src="readme-images/leesbaarheid-slecht.png" width="375px" alt="Code van de 1e pagina">
   <img src="readme-images/button-niet-leesbaar.png" width="375px" alt="Button niet goed zichtbaar">
+  <img src="readme-images/leesbaarheid-slecht.png" width="375px" alt="Code van de 1e pagina">
 
 
   En dit is hoe het er uitziet nu ik het verbeterd heb.

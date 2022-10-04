@@ -5,25 +5,25 @@ console.log("hi");
 // menu openen
 var openButton = document.querySelector("header > button");
 
+openButton.addEventListener("click", menuOpenen);
+
 function menuOpenen() {
 	var deNav = document.querySelector("header > nav");
 	
 	deNav.classList.add("openen");
 }
 
-openButton.addEventListener("click", menuOpenen);
 
 // menu sluiten 
 var sluitButton = document.querySelector("header nav button");
+
+sluitButton.addEventListener("click", menuSluiten);
 
 function menuSluiten() {
 	var deNav = document.querySelector("header > nav");
 	
 	deNav.classList.remove("openen");
 }
-
-sluitButton.addEventListener("click", menuSluiten);
-
 
 // // Detailpagina hartjes
 // //hartje van het product
@@ -45,6 +45,7 @@ sluitButton.addEventListener("click", menuSluiten);
 // }
 
 //hartje van productenlijstje
+
 var deButton = document.querySelectorAll("main section:nth-of-type(8) ul li button.like");
 
 for(let i = 0; i< deButton.length; i++){

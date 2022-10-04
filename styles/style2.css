@@ -1,10 +1,6 @@
 /********/
 /* MAIN */
 /********/
-main{
-    padding: 2em;
-}
-
 /* Stijling p */
 main > p{
     text-align: center;
@@ -61,7 +57,7 @@ main section:nth-of-type(1) button::after {
 	100%{
 		transform: scale(1)
 	}
-} */
+}
 
 main section:nth-of-type(1) button:hover{
 	animation-name: hartjeHover;
@@ -117,7 +113,8 @@ main section:nth-of-type(2) a{
     font-size: small;
 }
 
-/* Stijling 4e section*/
+/* Stijling 4e section
+foto's naast en onder elkaar zetten*/
 main section:nth-of-type(4){
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -160,6 +157,7 @@ main section:nth-of-type(5) p{
 }
 
 /* Stijling 6e section*/
+/* Button laten plakken onderaan het scherm */
 main section:nth-of-type(6){
     display: flex;
     justify-content: center;
@@ -167,20 +165,21 @@ main section:nth-of-type(6){
 
     position: sticky;
     bottom: 0;
-    z-index: 150;
+    z-index: var(--z-index);
     background-color: var(--color-background);
     padding: 1em;
 }
 
 main section:nth-of-type(6) button{
-    padding: .5em 3em .5em 3em;
+    padding: .5em 2.7em .5em 2.7em;
 
 }
 
+/* Stijling van de verschillende buttons */
 main section:nth-of-type(6) button:nth-of-type(1){
     background-color: var(--color-background);
     color: var(--color-text);
-    font-size: medium;
+    font-size: var(--font-size);
     border: var(--border);
     border-color: var(--border-color1);
 }
@@ -228,7 +227,6 @@ main section:nth-of-type(8) ul li:nth-of-type(2) a{
     order: -1;
 }
 
-
 main section:nth-of-type(8) ul li:nth-of-type(1) p{
     margin-top: 0;
 }
@@ -241,7 +239,7 @@ main section:nth-of-type(8) ul li:nth-of-type(2) p:nth-of-type(1){
     margin-top: 1.2em;
 }
 
-
+/* Stijling hartjes op afbeelding */
 main section:nth-of-type(8) ul li:nth-of-type(1) button{
     position: absolute;
     right: 0;
@@ -311,7 +309,7 @@ main section:nth-of-type(8) ul li.liked button.like::after {
 }
 
 
-/*buttons*/
+/*stijling slider buttons*/
 main section:nth-of-type(8) > nav{
     display: flex;
     justify-content: center;
@@ -333,7 +331,6 @@ main section:nth-of-type(8) > nav a img{
 main section:nth-of-type(8) > nav.slide button::after{
     content: "🔴";
 }
-
 
 /* Stijling 9e section*/
 main section:nth-of-type(9){
