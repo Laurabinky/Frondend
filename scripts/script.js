@@ -61,30 +61,6 @@ function likeMe(event){
 }
 
 // //geluidje button klik
-// var buttonVoorGeluid = document.querySelectorAll("button");
-// console.log(buttons[0]);
-
-// buttonVoorGeluid.addEventListener("click", maaktGeluid);
-
-// function maaktGeluid(){
-// 	var clickGeluid = new Audio("audio/mouse-click.mp3");
-
-// 	clickGeluid.play();
-// }
-
-// const clickButtons = document.querySelectorAll('button')
-
-
-// function playSound(e){
-// 	const id = event.target.id
-// 	const sound = new Audio('./audio/mouse-click.mp3')
-// 	sound.play()
-// }
-
-// for( const button of clickButtons){
-// 	clickButtons.addEventListener("click", playSound);
-// }
-
 //klikgeluidje op de buttons
 var audio = new Audio("audio/mouse-click.mp3");
 var buttons = document.querySelectorAll("button");
@@ -94,3 +70,13 @@ buttons.forEach(button => {
     audio.play();
   });
 });
+
+//Zoeken
+// var form = document.querySelector("header > ul li");
+// var buttonHeader = document.querySelector("header > ul li button");
+// var input = document.querySelector("header > ul li input");
+
+// form.addEventListener('click', ()=>{
+// 	form.classList.toggle("active");
+// 	input.focus();
+// })

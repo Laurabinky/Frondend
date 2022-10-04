@@ -89,3 +89,16 @@ buttons.forEach(button => {
     audio.play();
   });
 });
+
+//de buttons
+var sliderButtons = document.querySelector("main section:nth-of-type(8) > nav button");
+
+for(let i = 0; i< deButton.length; i++){
+sliderButtons.addEventListener("click", buttonRood);
+}
+
+function buttonRood(event){
+	var deCircels = event.target;
+	var deNav = deCircels.closest("nav");
+	deNav.classList.toggle("slide");
+}

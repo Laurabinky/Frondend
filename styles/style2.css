@@ -148,13 +148,14 @@ main section:nth-of-type(5) button{
     display: block;
     border: none;
     background: none;
-    font-size: medium;
+    font-size: large;
     font-weight: 600;
     margin: 1em;
+    color: var(--color-text);
 }
 
 main section:nth-of-type(5) p{
-    font-size: x-small;
+    font-size: small;
     text-align: center;
 }
 
@@ -172,22 +173,25 @@ main section:nth-of-type(6){
 }
 
 main section:nth-of-type(6) button{
-    padding: .7em 4em .7em 4em;
+    padding: .5em 3em .5em 3em;
 
 }
 
 main section:nth-of-type(6) button:nth-of-type(1){
     background-color: var(--color-background);
     color: var(--color-text);
-    font-size: x-small;
+    font-size: medium;
+    border: var(--border);
+    border-color: var(--border-color1);
 }
 
 main section:nth-of-type(6) button:nth-of-type(2){
-    background-color: var(--color-backgroundDonker);
-    color: var(--color-accent-text);
-    font-size: medium;
+    background-color: var(--toevoeg-button);
+    color: var(--button-change);
+    font-size: large;
     font-weight: 600;
-    border: none;
+    border: var(--border);
+    border-color: var(--border-color2);
 }
 
 
@@ -306,13 +310,30 @@ main section:nth-of-type(8) ul li.liked button.like::after {
 	content:"❤️";
 }
 
+
+/*buttons*/
 main section:nth-of-type(8) > nav{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main section:nth-of-type(8) > nav button::after{
+    content: "⚪";
+}
+
+main section:nth-of-type(8) > nav button{
+    border: var(--border-style);
+    background-color: var(--background-buttons);
 }
 
 main section:nth-of-type(8) > nav a img{
     width: 100%;
 }
+
+main section:nth-of-type(8) > nav.slide button::after{
+    content: "🔴";
+}
+
 
 /* Stijling 9e section*/
 main section:nth-of-type(9){

@@ -59,8 +59,9 @@ main section:nth-of-type(2)  ul:first-of-type li{
 main section:nth-of-type(2) ul:first-of-type li button{
 	height:100%;
 	width:100%;
-	border-radius: 2em;
+	border-radius: var(--border-radius);
 	padding: 0 1.5em 0 1.5em;
+	background-color: var(fill-buttons);
 }
 
 main section:nth-of-type(2) ul:first-of-type li button:active{
@@ -103,8 +104,8 @@ main section:nth-of-type(2) ul:nth-of-type(2) li button{
 	position: absolute;
 	right: 1em;
 	bottom: 7em;
-	background: none;
-	border: none;
+	border: var(--border-style);
+	background:none;
 }
 
 main section:nth-of-type(2) ul:nth-of-type(2) button.like::after {
@@ -163,7 +164,26 @@ main section:nth-of-type(2) ul:nth-of-type(2) li.liked button.like::after {
 
 
 main section:nth-of-type(2) > nav{
-	text-align: center;
+    display: flex;
+    justify-content: center;
+	margin-bottom: 1em;
+}
+
+main section:nth-of-type(2) > nav button::after{
+    content: "⚪";
+}
+
+main section:nth-of-type(2) > nav button{
+    border: var(--border-style);
+    background-color: var(--background-buttons);
+}
+
+main section:nth-of-type(2) > nav a img{
+    width: 100%;
+}
+
+main section:nth-of-type(2) > nav.slide button::after{
+    content: "🔴";
 }
 
 /* stijling 3e section */
@@ -244,18 +264,14 @@ main section:nth-of-type(5){
 }
 
 main section:nth-of-type(5) h2,
-main section:nth-of-type(5) h3,
-main section:nth-of-type(5) a{
+main section:nth-of-type(5) h3{
 	margin: 0;
 	color: var(--color-textalwaysblack);
 }
 
 main section:nth-of-type(5) a:nth-of-type(1){
 	text-decoration: none;
-}
-
-main section:nth-of-type(5) a:nth-of-type(1) p{
-	color: var(--color-text);
+	color: var(--color-textalwaysblack);
 }
 
 main section:nth-of-type(5) a:nth-of-type(2),

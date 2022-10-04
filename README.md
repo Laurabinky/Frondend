@@ -136,7 +136,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   Het schrijven van de html ging best voorspoedig. Eenmaal de css ervoor schrijven vind ik lastig. Dan merk ik toch dat ik heel veel met classes en id's gedaan heb en dit weer even wennen is. Ik heb op het moment voornamelijk nog moeite met iets selecteren. 
-    <img src="readme-images/eerste-deel-code" width="375px" alt="breakdown van de hele pagina">
+    <img src="readme-images/eerste-deel-code.png" width="375px" alt="breakdown van de hele pagina">
 
 
 

@@ -18,11 +18,13 @@
   /*********************/
   :root {
       /* kleurenpallet*/
+        /*tekst*/
       --color-text:#000;
       --color-accent-text:#fff;
       --color-textalwaysblack:#000;
+      --button-change: #fff;
 
-  
+        /*background*/
       --color-background:#faf9f8;
       --color-background2:#f6e6df;
       --color-header:#faf9f8;
@@ -30,21 +32,50 @@
       --color-extra:#CE2125; 
       --color-section9:#88998D; 
 
+      --toevoeg-button: #000;
+      --border-color1: #000;
+      --border-color2: #fff;
+      --border: solid;
+
+
+
+      /*buttons*/
+      --border-style: none;
+      --border-radius: 2em;
+      --background-buttons: #faf9f8;
+      --fill-buttons:#f3f3f3; 
+
+
   }
   
   @media(prefers-color-scheme: dark){
       :root{
-          --color-text:#fff;
-          --color-accent-text:#fff;
-          --color-textalwaysblack:#000;
+            /*tekst*/
+        --color-text:#fff;
+        --color-accent-text:#fff;
+        --color-textalwaysblack:#000;
+        --button-change: #000;
 
-  
-          --color-background:#000;
-          --color-background2:#f6e6df;
-          --color-header:#101010;
-          --color-footer:	#303030; 
-          --color-extra:#CE2125; 
-          --color-section9:#88998D; 
+
+            /*background*/
+        --color-background:#000;
+        --color-background2:#f6e6df;
+        --color-header:#101010;
+        --color-footer:	#303030; 
+        --color-extra:#CE2125; 
+        --color-section9:#88998D; 
+
+        --toevoeg-button: #faf9f8;
+        --border-color1: #fff;
+        --border-color2: #fff;
+
+
+         /*buttons*/
+        --border-style: none;
+        --border-radius: 2em;
+        --background-buttons: #000;
+        --fill-buttons:#f3f3f3; 
+        --font-weight: 600;
       }
     }
   
@@ -65,9 +96,11 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  /*focus, hover en active voor buttons*/
   *:focus{
-    color: orange;
-    border: solid red;
+    color: var(--color-extra);
+    border: solid;
+    border-color: var(--color-extra);
   }
 
   button:hover{
@@ -76,9 +109,21 @@
   }
 
   button:active{
-    background-color: var(--color-extra);
+    color: var(--color-extra);
+    font-weight:var(--font-weight);
+  }
+
+  /*focus, hover en active voor atjes*/
+  a:hover{
+    border-style: dotted;
+    color: var(--color-extra);
   }
   
+  a:active{
+    font-size: x-large;
+    color: var(--color-extra);
+  }
+
   h2, h3, h4, p{
       font-size: large;
       line-height: 1.4em;
@@ -182,9 +227,12 @@
   /* ul met altijd zichtbare menu */
   header > ul{
       display: flex;
+      justify-content: center;
+      align-items: center;
       margin-left: auto;
       list-style: none;
       gap: 1em;
+      overflow: hidden;
   
   }
   header > ul li{
@@ -224,6 +272,86 @@
       width: 100%;
   }
   
+
+
+  /*Zoeken werkend*/
+  /* header > ul li:nth-of-type(1) form {
+}
+
+
+header > ul li:nth-of-type(1) input, button {
+	font:inherit;
+	padding:.5em;
+	border-radius:.5em;
+}
+
+
+header > ul li:nth-of-type(1) input {
+	border:solid 1px black;
+}
+
+
+header > ul li:nth-of-type(1) button {
+	background-color:dodgerblue;
+	border:none;
+	color:white;
+	cursor:pointer;
+} */
+  /* header > ul > li:nth-of-type(1){
+    position: relative;
+    height: 100%;
+    width: 17em;
+  }
+
+  header > ul li input{
+    border: 0;
+    padding: 1em;
+    font-size: medium;
+    width: 100%;
+    transition: width 0 3s ease;
+  }
+
+  header > ul li button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border: none;
+    transition: transform .3s ease;
+  }
+
+  header > ul li button:focus{
+    outline: none;
+  }
+
+  header > ul li:active input{
+    width: 3em;
+  }
+
+  header > ul li:active button{
+    transform: translateX(5em);
+  } */
+
+
+
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  } */
+
+
+  header > ul li  form input{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: var(--color-text);
+    transition: .4s;
+  }
+
 /*********/
 /*footer*/
 /*********/
@@ -279,3 +407,16 @@ footer > a:nth-of-type(2){
 	margin: 0;
 }
 
+body footer select {
+    width: 5em;
+    margin-top: 2em;
+    padding: .2em;
+    background-color: var(--color-footer);
+}
+body header select:hover{
+    color: var(--color-section9);
+}
+
+body header select:focus{
+    background-color: var(--color-footer);
+}
