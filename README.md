@@ -241,6 +241,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Darkmode toepassen.
 
   <img src="readme-images/leesbaarheid-slecht.png" width="375px" alt="Code van de 1e pagina">
+  <img src="readme-images/button-niet-leesbaar.png" width="375px" alt="Button niet goed zichtbaar">
+
 
 </details>
 
@@ -250,7 +252,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 3 (week 4)
 
-<details open>
+<details>
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
@@ -281,7 +283,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
